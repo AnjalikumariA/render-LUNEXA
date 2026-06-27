@@ -253,3 +253,68 @@ background-image:url("/images/accessories/accessories-banner.jpg");
     width:100%;
     height:auto;
 }
+/* ==========================
+   HERO SECTION
+========================== */
+
+.hero{
+    min-height:85vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:80px;
+    background:linear-gradient(135deg,#0b0b0b,#1c1c1c);
+    color:#fff;
+}
+
+.hero-content{
+    width:50%;
+}
+
+.hero-content h1{
+    font-size:70px;
+    line-height:1.1;
+    margin-bottom:20px;
+    font-family:'Playfair Display',serif;
+}
+
+.hero-content p{
+    font-size:18px;
+    color:#d1d1d1;
+    margin-bottom:30px;
+    line-height:1.7;
+}
+
+.hero-image{
+    width:45%;
+    display:flex;
+    justify-content:center;
+}
+
+.hero-image img{
+    width:100%;
+    max-width:500px;
+}
+/* Featured Section */
+
+.featured{
+    padding:80px 8%;
+    text-align:center;
+}
+
+.featured h2{
+    font-size:42px;
+    margin-bottom:10px;
+    font-family:'Playfair Display',serif;
+}
+
+.section-subtitle{
+    color:#666;
+    margin-bottom:50px;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:30px;
+}
