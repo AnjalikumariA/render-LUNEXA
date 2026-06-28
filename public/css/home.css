@@ -239,6 +239,7 @@ background-image:url("/images/accessories/accessories-banner.jpg");
     align-items:center;
     padding:80px;
     min-height:100vh;
+    overflow:hidden;
     background:#111;
     color:#fff;
 }
