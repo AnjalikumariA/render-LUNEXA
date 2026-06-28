@@ -10,20 +10,20 @@ const products = [
     brand: "LUNEXA",
     name: "Elegant White Shirt",
     price: "₹2,499",
-    image: "/images/products/product2.jpg"
+    image: "https://picsum.photos/400/500?random=2"
 
   },
   {
     brand: "LUNEXA",
     name: "Luxury Beige Dress",
     price: "₹3,499",
-image: "/images/products/product3.jpg"
+    image: "https://picsum.photos/400/500?random=3"
   },
   {
     brand: "LUNEXA",
     name: "Classic Brown Handbag",
     price: "₹4,999",
-image: "/images/products/product4.jpg"
+    image: "https://picsum.photos/400/500?random=4"
   }
 ];
 
