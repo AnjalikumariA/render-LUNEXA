@@ -2,22 +2,28 @@ const products = [
   {
     brand: "LUNEXA",
     name: "Premium Black Oversized T-Shirt",
-    price: "₹1,999"
+    price: "₹1,999",
+    image: "https://picsum.photos/400/500?random=1"
+
   },
   {
     brand: "LUNEXA",
     name: "Elegant White Shirt",
-    price: "₹2,499"
+    price: "₹2,499",
+    image: "/images/products/product2.jpg"
+
   },
   {
     brand: "LUNEXA",
     name: "Luxury Beige Dress",
-    price: "₹3,499"
+    price: "₹3,499",
+image: "/images/products/product3.jpg"
   },
   {
     brand: "LUNEXA",
     name: "Classic Brown Handbag",
-    price: "₹4,999"
+    price: "₹4,999",
+image: "/images/products/product4.jpg"
   }
 ];
 
@@ -26,9 +32,10 @@ const productsContainer = document.querySelector(".products");
 products.forEach(product => {
   productsContainer.innerHTML += `
     <div class="product-card">
-      <div class="product-image">
-        Image
-      </div>
+     <div class="product-image">
+    <img src="${product.image}" alt="${product.name}">
+</div>
+
 
       <div class="product-info">
         <h4>${product.brand}</h4>
