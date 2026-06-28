@@ -226,7 +226,7 @@ background-image:url("/images/accessories/accessories-banner.jpg");
     justify-content:space-between;
     align-items:center;
     padding:80px;
-    min-height:85vh;
+    min-height:100vh;
     background:#111;
     color:#fff;
 }
